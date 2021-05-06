@@ -1,0 +1,5 @@
+TP N° 1 Inserción Datos SQL
+TP N° 2 Consultas SQL
+TP N° 3 Consultas Avanzadas SQL
+TP Diseño BD Instituto
+TP Final Trafic
