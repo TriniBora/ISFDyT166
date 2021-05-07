@@ -1,0 +1,21 @@
+body {
+    background-color: #f8df6f !important;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.row {
+    background-color: wheat;
+    font-size: 20px;
+    text-align: center;
+    height: 80px;
+}
+
+.col-sm-2 {
+    background-color: rgb(246, 248, 245);
+}

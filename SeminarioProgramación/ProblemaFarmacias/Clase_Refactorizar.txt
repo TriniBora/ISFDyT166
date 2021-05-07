@@ -1,0 +1,10 @@
+
+¡Actividad práctica!
+Pablo tiene 600 pesos, tiene que ir a comprar medicina para la gripe en una farmacia y solo puede gastar 500 pesos.
+Tiene que comprar 2 cajas de pastillas contra el malestar general, un jarabe para la tos y un expectorante para la flema.
+Pablo conoce 2 farmacias y la última le queda lejos por lo que tiene que moverse en colectivo.
+
+La farmacia 1: tiene las 2 cajas en 100$ c/u, el jarabe cuesta 100$ y el expectorante cuesta 150$ y cobran un iva de 10% sobre la compra.
+La farmacia 2: tiene las 2 cajas en 90$ c/u, el jarabe cuesta 140$ y el expectorante cuesta 100$ y cobran un iva de 15% sobre cada producto, y el colectivo cuesta 5 pesos.
+
+¿Cuánto gastaría Pablo en las dos farmacias?. Mostrar por consola aquel resultado cuya compra sea más económica, así como un texto que diga “En la farmacia # se ahorra x$”

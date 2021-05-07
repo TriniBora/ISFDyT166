@@ -1,0 +1,9 @@
+.contenedor {
+    background-color: mediumturquoise;
+    height: 512px;
+    width: 512px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

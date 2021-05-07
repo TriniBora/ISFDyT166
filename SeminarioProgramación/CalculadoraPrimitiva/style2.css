@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    background-color: rgb(248, 223, 153);
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    background-color: chocolate;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+#operacion {
+    width: 300px;
+    color: rgb(180, 180, 178);
+}
+
+.resultado {
+    color: chocolate;
+    fonts-size: 20px;
+    font-weight: bold;
+}
