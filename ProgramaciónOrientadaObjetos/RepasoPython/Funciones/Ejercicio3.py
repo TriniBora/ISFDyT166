@@ -5,9 +5,9 @@ frecuencia. '''
 
 
 def contar_palabras(cadena):
-    ''' La funcion contar_vocales cuenta cuántas
-    ocurrencias de cada vocal hay en la cadena indicada y devuelve
-    la cantidad de ocurrencias.'''
+    ''' La funcion contar_palabras cuenta cuántas
+    ocurrencias de cada palabra hay en la cadena indicada y devuelve
+    un diccionario con cada palabra y la cantidad de ocurrencias de cada palabra.'''
 
     lista_cadena = cadena.split()
 
@@ -21,7 +21,13 @@ def contar_palabras(cadena):
 
     return(contador)
 
+
 def palabra_mas_repetida(dic_cadena):
+    '''La funcion palabra_mas_repetida recibe un diccionario con cada palabra de la cadena y la cantidad de
+    ocurrencias de cada palabra. Lo convierte en una lista cuyos elementos son tuplas de cada par cantidad-palabra,
+    ordena la lista en forma descendente por cantidad y guarda la cantidad de ocurrencias del primer elemento ordenado.
+    Imprime por pantalla la/s tupla/s cuya cantidad de ocurrencias es igual a la del primer elemento guardado.
+    '''
 
     lista_cadena=[]
 
