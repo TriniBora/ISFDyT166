@@ -12,5 +12,14 @@ def ordenamiento_por_burbuja(lista_nros):
         print (nro)
 
 #MAIN
-lista_nros1 = [64, 34, 25, 12, 22, 11, 90]
+lista_nros1 = [23, 45, 9, 0, 8]
 ordenamiento_por_burbuja(lista_nros1)
+
+lista_nros2 = []
+ordenamiento_por_burbuja(lista_nros2)
+
+lista_nros3 = [0]
+ordenamiento_por_burbuja(lista_nros3)
+
+lista_nros4 = [-3, 4.88, 0, -5.6]
+ordenamiento_por_burbuja(lista_nros4)
