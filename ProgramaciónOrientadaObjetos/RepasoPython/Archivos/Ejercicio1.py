@@ -24,7 +24,7 @@ def archivo_csv_a_lista(archivo):
     return lista
     archivo.close()
 
-archivo = open("Covid19Vacunas.csv","x")
+archivo = open("C:/Users/Trinidad/Documents/Proyectos/ISFDyT166/Covid19VacunasaAgrupadas.csv")
 #MAIN
 #lista_vacunas = archivo_csv_a_lista("Covid19VacunasAgrupadas.csv")
 #print(lista_vacunas)
