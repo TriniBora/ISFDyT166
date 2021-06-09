@@ -7,9 +7,8 @@ def ordenamiento_por_burbuja(lista_nros):
             if lista_nros[j] > lista_nros[j+1]:#intercambio si el nro es más grande que el siguiente
                 lista_nros[j], lista_nros[j+1] = lista_nros[j+1], lista_nros[j]
 
-    print ("Lista ordenada:")
-    for nro in lista_nros:
-        print (nro)
+    print ("Lista ordenada:",lista_nros)
+
 
 #MAIN
 lista_nros1 = [23, 45, 9, 0, 8]
