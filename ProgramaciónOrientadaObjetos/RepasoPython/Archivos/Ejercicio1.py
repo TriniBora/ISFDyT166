@@ -94,7 +94,7 @@ def tipo_vacuna_cant_aplicaciones(lista_datos, provincia):
 
 
 def info_por_provincia(lista_datos, provincia):
-    '''Dada una provincia, la funcion info_por_provincia, muestra por pantalla, 
+    '''Dada una provincia, la funcion info_por_provincia, muestra por pantalla,
     el total de vacunas aplicadas, el tipo de vacuna con mayor cantidad de aplicaciones
     y el tipo de vacuna con menor cantidad de aplicaciones'''
 
@@ -164,7 +164,7 @@ def ranking_dosis_aplicadas_por_criterio(lista_datos, nro_columna, tipo_dosis):
     i = seleccionar_tipo_dosis(tipo_dosis)[0]
 
     ranking = sorted(dict_dosis_totales.items(), key=lambda x: x[1][i], reverse=True)
-    '''dic.items() devuelve una lista de pares clave-valor del diccionario y el tipo de datos 
+    '''dic.items() devuelve una lista de pares clave-valor del diccionario y el tipo de datos
     de su elemento es tuple. x es el elemento de esta tupla, donde x[0] es la clave y x[1]
     es el valor. key=lambda x:x[1] indica que la clave de comparación es el valor de los elementos
     del diccionario.El parámetro opcional reverse puede ser establecido como true si los valores
@@ -190,8 +190,8 @@ def mostrar_ranking_por_provincia(lista_datos, tipo_dosis):
         #se convierte a porcentaje la cantidad de dosis
 
     print (f'Las 10 provincias con mayor porcentaje de {dosis} dosis totales aplicadas son: ')
-    for item in range(11):
-        print(f'{item}: {ranking[item][0]}: {ranking[item][1][i]:.2f} %')
+    for item in range(10):
+        print(f'{item+1}: {ranking[item][0]}: {ranking[item][1][i]:.2f} %')
 
 
 def mostrar_ranking_por_tipo_vacuna(lista_datos, tipo_dosis):
