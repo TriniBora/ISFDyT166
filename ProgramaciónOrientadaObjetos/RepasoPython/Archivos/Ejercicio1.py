@@ -20,6 +20,7 @@ def archivo_csv_a_lista(archivo):
         next(reader, None)#excluyo el encabezado del archivo
         for row in reader:
             lista_datos.append(row)
+    print(lista_datos)
 
     return lista_datos
 
