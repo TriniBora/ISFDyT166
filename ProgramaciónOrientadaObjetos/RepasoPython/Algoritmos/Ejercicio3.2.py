@@ -12,8 +12,8 @@ def ordenar_lista(lista_nros):
 
 
 def busqueda_binaria_recursiva(lista_ordenada_nros, buscado, i, k):
-    '''La funcion busqueda_binaria_recursiva recibe una lista de numeros, el numerosa buscar en la lista y dos valores i, k que indican los extremos del intervalo donde se va a buscar.
-    Retorna -1 si el número buscado no está en la lista o el índice del elemnto correspondiente, en caso de que sí esté.'''
+    '''La funcion busqueda_binaria_recursiva recibe una lista de numeros, el numero a buscar en la lista y dos valores i, k que indican los extremos del intervalo donde se va a buscar.
+    Retorna -1 si el número buscado no está en la lista o el índice del elemento correspondiente, en caso de que sí esté.'''
 
     if i > k:
         #si los extremos se "cruzan" quiere decir que se terminó la búsqueda
@@ -26,7 +26,7 @@ def busqueda_binaria_recursiva(lista_ordenada_nros, buscado, i, k):
     #mitad es el elemento medio de la lista de numeros en el intervalo
 
     if mitad == buscado:
-        #si el numero buscado coincide con el elemento medio dle intervalo, se retorna ese indice
+        #si el numero buscado coincide con el elemento medio del intervalo, se retorna ese indice
         return j
 
     if buscado < mitad:
