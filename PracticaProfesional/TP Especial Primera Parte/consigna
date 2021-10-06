@@ -1,0 +1,40 @@
+Práctica Profesional 2021, 3er año.
+Trabajo Práctico Especial. Primera parte.
+
+1)
+La concesionaria de vehículos Tandil - Car solicita la creación de un sistema para manejar el stock de vehículos disponibles. A su vez, el sistema quedará a disposición para que potenciales clientes puedan ver los
+vehículos y decidir en su compra.
+La información mínima asociada a un vehículo es:
+● kilometraje
+● tipo de combustible
+● modelo
+● marca
+● precio
+● service al dia
+● categoría (camioneta/auto/motocicleta)
+
+2)
+Además para cada vehículo se desea conocer el nivel de desgaste. Este factor será calculado de forma diferente según su categoría, como se menciona a continuación.
+Camioneta:
+Si el combustible es diesel
+(kilometrajes / años de antigüedad )  / 1000
+Si el combustible es nafta (con o sin GNC)
+(kilometrajes / años de antigüedad )  / 100
+Auto:
+Si el service está al día
+(kilometrajes / años de antigüedad )  / 100
+En caso contrario
+(kilometrajes / años de antigüedad )  / 10
+Moto:
+Si el service está al día y tiene menos de 30 mil km
+(kilometrajes / años de antigüedad )  / 1000
+En caso contrario
+(kilometrajes / años de antigüedad )  / 10
+
+3)
+La concesionaria está evaluando la posibilidad de abrir 2 nuevas sucursales en diferentes puntos de la Ciudad de Tandil. Por lo tanto llega un requerimiento de último momento, desea que el sistema soporte
+múltiples sucursales. Cada sucursal tendrá su dirección y horarios de atención al público.  El usuario del sistema podrá realizar la búsqueda de vehículos de interés en una sucursal especíﬁca o en todas. Cada sucursal
+tendrá su catálogo de vehículos y en el caso de que un vehículo sea compartido por más de una sucursal no se debe repetir información en el sistema, deben manejarse referencias sin objetos duplicados para evitar
+consumo innecesario de memoria.
+Aclaración:
+En está primera entrega el sistema solo consta de búsquedas de vehículos por categoría y nivel de desgaste.
